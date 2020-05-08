@@ -1,3 +1,9 @@
+*{
+    margin: 0 auto;
+    list-style: none;
+}
+
+
 /* header starting  */
 
 .headerblue
@@ -8,7 +14,7 @@
 
 .top-icons{
     color: white; 
-text-align: left;
+text-align: center;
 word-spacing: 30px;
 }
 .socials
@@ -18,12 +24,12 @@ word-spacing: 30px;
 }
 .middletext
 {
-    text-align: left;
+    text-align: center;
     font-size: large;
 }
 .topbuttons
 {
-
+ text-align: center;
 }
 
 
@@ -160,6 +166,12 @@ p.doingparagraph
 
 /* what we are doing end  */
 /* mission start here   */
+.missioneksathmarna
+{
+    text-align: center;
+    margin-right: auto;
+    
+}
 
 .missionheading {
     text-align: left;
@@ -172,10 +184,11 @@ p.doingparagraph
     background: whitesmoke;
     width: 20%;
     height: 50%;
-    margin-left: 30px;
+    margin-left: 10px;
     text-align: left;
     margin-top: 30px;
     padding: 20px;
+    ;
 }
 
 img.allpng {
@@ -187,8 +200,10 @@ img.allpng {
 
 .missionheight {
     height: 300px;
-
+    border: 1px solid black ;
     overflow: hidden;
+    box-shadow: 10px 10px 32px  rgb(0, 0, 0);
+    
 }
 
 /* mission end here  */
@@ -216,6 +231,8 @@ img.allpng {
 .footertext-color {
     color: whitesmoke;
     padding: 20px;
+   
+  
 }
 
 .footerconnect {
